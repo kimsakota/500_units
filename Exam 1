@@ -1,0 +1,18 @@
+int main() {
+	/*vector<int> nums = { 4, 2, -3, -1, 0, 4 };
+	Solution name;
+	set<vector<int>> result = name.getAllZeroSumSubarrays(nums);
+	if (result.size() == 0) cout << "-1 -1";
+	for (auto x : result)
+		for (auto num : x)
+			cout << num << " ";*/
+
+	vector<int> nums = { 0, 0, 0, 0, 0  };
+	Solution name;
+	vector<int> result = name.findLargestSubarray(nums);
+	for (auto x : result)
+		cout << x << " ";
+	/*int n = 6;
+	int arr[] = { -2, 11, -4, 13, -5, 2 };
+	sum(arr, n);*/
+	return 0;
